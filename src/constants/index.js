@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import gemini_logo from "../assets/projects/download.jpeg";
 
 export const profile_content = `I am a passionate full stack developer with expertise in full stack development, specializing in React with Redux for robust front-end solutions and Next.js for efficient server-side rendering. On the backend, I excel in Node.js and Express, utilizing MongoDB for effective data management. I have hands-on experience with AWS for scalable cloud solutions, and I'm proficient in Git/GitHub for version control, along with Docker for streamlined deployment processes." My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -88,13 +89,19 @@ export const projects = [
       "Docker",
     ],
   },
-
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js", "Express", "node.js", "mySQL"],
+  },
+  {
+    title: "Gemini Clone",
+    image: gemini_logo,
+    description:
+      "An interactive clone of the Gemini website, built using React for frontend interactivity. This project includes features like responsive design, dynamic content rendering, and CSS for styling. It aims to replicate the core functionalities of Gemini's interface, providing a seamless user experience.",
+    technologies: ["HTML", "CSS", "React", "JavaScript", "nodejs"],
   },
   {
     title: "Portfolio Website",
